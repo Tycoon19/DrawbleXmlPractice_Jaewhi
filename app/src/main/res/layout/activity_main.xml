@@ -30,6 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:text="싫어요"
+            android:background="@drawable/blue_round_rect"
             android:layout_weight="1"/>
 
 
