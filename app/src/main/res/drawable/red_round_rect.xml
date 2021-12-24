@@ -43,9 +43,48 @@
 
     </item>
 <!--버튼 눌렀을때의 모습-->
-<!--    <item-->
-<!--        android:state_pressed="true">-->
+    <item
+        android:state_pressed="true">
 
-<!--    </item>-->
+        <layer-list>
+
+            <item>
+
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="#FF0000"/>
+                    <corners
+                        android:radius="5dp"/>
+
+                </shape>
+
+            </item>
+
+            <item
+                android:top="3dp"
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp">
+
+
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="#EFEFEF"/>
+                    <corners
+                        android:radius="4dp"/>
+
+                </shape>
+
+
+            </item>
+
+        </layer-list>
+
+
+    </item>
 
 </selector>
