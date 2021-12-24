@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--버튼 안눌렀을때의 모-->
+    <item
+        android:state_pressed="false">
+        <layer-list>
+
+            <item>
+
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="#FF0000"/>
+
+                </shape>
+
+            </item>
+
+            <item
+                android:top="3dp"
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp">
+
+
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="#FFFFFF"/>
+
+                </shape>
+
+
+            </item>
+
+        </layer-list>
+
+    </item>
+<!--버튼 눌렀을때의 모습-->
+<!--    <item-->
+<!--        android:state_pressed="true">-->
+
+<!--    </item>-->
+
+</selector>
